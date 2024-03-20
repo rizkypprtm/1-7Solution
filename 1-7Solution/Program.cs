@@ -173,7 +173,7 @@ namespace _1_7Solution
         //no 2
         private static ApplicationInfoNo2 GetApplicationInfoNo2(string path, string name)
         {
-            var application = new ApplicationInfo
+            var application = new ApplicationInfoNo2
             {
                 Path = path,
                 Name = name
