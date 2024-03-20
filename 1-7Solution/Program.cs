@@ -13,7 +13,7 @@ namespace _1_7Solution
         {
             public string shieldLastRun { get; set; }
         }
-        class ApplicationInfo
+        class ApplicationInfoNo2
         {
             public string Path { get; set; }
             public string Name { get; set; }
@@ -113,7 +113,7 @@ namespace _1_7Solution
             //usage no 2
             string path = "C:/apps/";
             string name = "Shield.exe";
-            ApplicationInfo appInfo = GetApplicationInfo(path, name);
+            ApplicationInfoNo2 appInfo = GetApplicationInfoNo2(path, name);
 
             //usage no 3
             var laptop = new Laptop("macOs");
@@ -171,7 +171,7 @@ namespace _1_7Solution
             return null;
         }
         //no 2
-        private static ApplicationInfo GetApplicationInfo(string path, string name)
+        private static ApplicationInfoNo2 GetApplicationInfoNo2(string path, string name)
         {
             var application = new ApplicationInfo
             {
